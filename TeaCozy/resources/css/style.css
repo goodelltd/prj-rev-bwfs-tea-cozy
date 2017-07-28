@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  justify-content: center;
+  opacity: 0.9;
+  margin: auto;
+  padding-top: 69px;
+}
+
+#toplogo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.headnav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: right;
+  text-align: right;
+  display: block;
+}
+
+.headnav a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 10px;
+}
+
+.mainblock {
+  margin: auto;
+  padding-top: 70px;
+}
+
+#mission {
+  width: 1200px;
+  background-image: url("../images/mission.jpg");
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.msnbanner {
+  width: 1200px;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin:auto;
+  padding: 0;
+}
+
+.h2header h2{
+  padding: 10px;
+  margin: 0;
+}
+
+.subheader h4{
+  padding: 10px;
+  margin: 0;
+}
+
+#featured {
+  justify-content: center;
+  width: 1000px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgblock {
+  display: block;
+  padding: 5px;
+}
+
+.itemImg img{
+  width: 300px;
+  display: block;
+  padding: 10px;
+}
+
+.itemtxt {
+  padding: 10px;
+  font-style: bold;
+}
+
+#locations {
+  width: 1200px;
+  background-image: url("../images/locations.jpg");
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.locblocks {
+  display: flex;
+  justify-content: center;
+}
+
+.locblock {
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
+  justify-content: center;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+}
+
+#locations h2 {
+  margin: 15px 0;
+}
+.locblock h3 {
+  margin: 0;
+  padding: 10px;
+}
+
+footer {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
